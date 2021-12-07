@@ -1,10 +1,12 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavbarContainer from './Componnent/Layout/Navbar/NavbarContainer';
 
 function App() {
     return (
-        <div>
-        <h1>Hello From App</h1> 
-        </div>
+       <Router>
+           <NavbarContainer />
+        </Router>
     )
 }
 
